@@ -9,9 +9,9 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 ## Languages & Tools
 
-- **HDLs:** Verilog, VHDL, SystemVerilog (planned)
+- **HDLs:** Verilog, VHDL (in progress), SystemVerilog (planned)
 - **Platforms:** Xilinx Artix-7 (class hardware), simulation-only for now, board TBD
-- **Tools:** Vivado 2025, Icarus Verilog, ModelSim, Git
+- **Tools:** Vivado 2025, Icarus Verilog, ModelSim, GTKWave, Git
 - **Concepts:** Combinational & Sequential Logic, FSMs, Memory Design, Pipelining, Protocols, DSP, Verification/Testbenches
 
 ---
@@ -22,12 +22,12 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 | Project | Description | Status |
 | ------- | ------------ | ------ |
-| Class Project 1 | *(add name/description)* | ✅ Complete |
-| Class Project 2 | *(add name/description)* | ✅ Complete |
-| Class Project 3 | *(add name/description)* | ✅ Complete |
-| Class Project 4 | *(add name/description)* | ✅ Complete |
-| Class Project 5 | *(add name/description)* | ✅ Complete |
-| Class Project 6 | *(add name/description)* | ✅ Complete |
+| [Lab 0 — Pipelined Register](class-projects/lab0-pipelined-register) | 2-bit synchronous double-buffered register | ✅ Complete |
+| [Lab 1 — Comparator](class-projects/lab1-comparator) | 2-bit equality comparator, implemented 4 ways (if-then-else, when-else, boolean equation, LUT primitive) | ✅ Complete |
+| [Lab 2 — Register File](class-projects/lab2-reg-file) | 8x4 register file with 3-to-8 decoder and 8-to-1 read mux | ✅ Complete |
+| [Lab 3 — ALU](class-projects/lab3-alu) | 6-bit ALU (adder, multiplier, logic unit, shifter) | ✅ Complete |
+| Lab 4 | *(in progress)* | ⏳ Pending |
+| [Lab 5 — Vending Machine System](class-projects/lab5-vending-machine) | Structural vending machine controller (coin/deposit input, inventory tracking, locking logic, LED/7-seg display) | ✅ Complete |
 
 ---
 
@@ -72,7 +72,7 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 ## Hardware Phase (Planned)
 
-> Real board projects once I purchase a dev board
+> Real board projects once a dev board is purchased
 
 - LED Blinker with Timing Constraints
 - Button Debouncer
