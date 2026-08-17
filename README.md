@@ -26,7 +26,7 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 | [Lab 1 — Comparator](class-projects/lab1-comparator) | 2-bit equality comparator, implemented 4 ways (if-then-else, when-else, boolean equation, LUT primitive) | ✅ Complete |
 | [Lab 2 — Register File](class-projects/lab2-reg-file) | 8x4 register file with 3-to-8 decoder and 8-to-1 read mux | ✅ Complete |
 | [Lab 3 — ALU](class-projects/lab3-alu) | 6-bit ALU (adder, multiplier, logic unit, shifter) | ✅ Complete |
-| Lab 4 | *(in progress)* | ⏳ Pending |
+| [Lab 4 — Debugging](class-projects/lab4-debugging) | Debugging exercises/techniques in Vivado (waveform analysis, simulation troubleshooting) | ⏳ Pending |
 | [Lab 5 — Vending Machine System](class-projects/lab5-vending-machine) | Structural vending machine controller (coin/deposit input, inventory tracking, locking logic, LED/7-seg display) | ✅ Complete |
 
 ---
@@ -37,9 +37,59 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 | Project | Description | Status |
 | ------- | ------------ | ------ |
-| 4-Bit ALU | Combinational arithmetic/logic unit | ⏳ Pending |
+| Priority Encoder / One-Hot Decoder | Combinational priority encoding and one-hot decoding logic | ⏳ Pending |
 | Traffic Light FSM | Finite state machine with timed transitions | ⏳ Pending |
-| 4x4 RAM | Synchronous read/write memory block | ⏳ Pending |
+| FIFO Buffer | Synchronous FIFO with full/empty flags | ⏳ Pending |
+| Multi-Mode Counter | Parameterizable up/down/load counter | ⏳ Pending |
+
+
+cd "/c/Users/kjbai/OneDrive/Documents/.VS Code/fpga-asic-projects/class-projects"
+mv lab4-project-name lab4-debugging
+cd ..
+
+cat > README.md << 'EOF'
+# FPGA Design Portfolio
+
+Personal FPGA/digital design projects built from the ground up in Verilog, VHDL, and SystemVerilog.
+Focused on digital logic fundamentals, HDL simulation, and hardware implementation.
+
+Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verification Engineer | Embedded Systems Engineer (FPGA focus)
+
+---
+
+## Languages & Tools
+
+- **HDLs:** Verilog, VHDL (in progress), SystemVerilog (planned)
+- **Platforms:** Xilinx Artix-7 (class hardware), simulation-only for now, board TBD
+- **Tools:** Vivado 2025, Icarus Verilog, ModelSim, GTKWave, Git
+- **Concepts:** Combinational & Sequential Logic, FSMs, Memory Design, Pipelining, Protocols, DSP, Verification/Testbenches
+
+---
+
+## Phase 0 — Class Projects (Design of Digital Systems)
+
+> Existing coursework using AMD Vivado 2025 and the Xilinx Artix-7 board
+
+| Project | Description | Status |
+| ------- | ------------ | ------ |
+| [Lab 0 — Pipelined Register](class-projects/lab0-pipelined-register) | 2-bit synchronous double-buffered register | ✅ Complete |
+| [Lab 1 — Comparator](class-projects/lab1-comparator) | 2-bit equality comparator, implemented 4 ways (if-then-else, when-else, boolean equation, LUT primitive) | ✅ Complete |
+| [Lab 2 — Register File](class-projects/lab2-reg-file) | 8x4 register file with 3-to-8 decoder and 8-to-1 read mux | ✅ Complete |
+| [Lab 3 — ALU](class-projects/lab3-alu) | 6-bit ALU (adder, multiplier, logic unit, shifter) | ✅ Complete |
+| [Lab 4 — Debugging](class-projects/lab4-debugging) | Debugging exercises/techniques in Vivado (waveform analysis, simulation troubleshooting) | ⏳ Pending |
+| [Lab 5 — Vending Machine System](class-projects/lab5-vending-machine) | Structural vending machine controller (coin/deposit input, inventory tracking, locking logic, LED/7-seg display) | ✅ Complete |
+
+---
+
+## Phase 1 — FPGA Fundamentals (Simulation)
+
+> Pure HDL simulation projects focused on core digital design concepts
+
+| Project | Description | Status |
+| ------- | ------------ | ------ |
+| Priority Encoder / One-Hot Decoder | Combinational priority encoding and one-hot decoding logic | ⏳ Pending |
+| Traffic Light FSM | Finite state machine with timed transitions | ⏳ Pending |
+| FIFO Buffer | Synchronous FIFO with full/empty flags | ⏳ Pending |
 | Multi-Mode Counter | Parameterizable up/down/load counter | ⏳ Pending |
 
 ---
