@@ -72,7 +72,7 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 ## Hardware Phase (Planned)
 
-> Real board projects once a dev board is purchased
+> Real board projects once I purchase a dev board
 
 - LED Blinker with Timing Constraints
 - Button Debouncer
