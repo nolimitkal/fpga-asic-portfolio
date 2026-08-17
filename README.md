@@ -9,7 +9,7 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 ## Languages & Tools
 
-- **HDLs:** Verilog, VHDL (in progress), SystemVerilog (planned)
+- **HDLs:** Verilog, VHDL, SystemVerilog (planned)
 - **Platforms:** Xilinx Artix-7 (class hardware), simulation-only for now, board TBD
 - **Tools:** Vivado 2025, Icarus Verilog, ModelSim, Git
 - **Concepts:** Combinational & Sequential Logic, FSMs, Memory Design, Pipelining, Protocols, DSP, Verification/Testbenches
