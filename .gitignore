@@ -1,0 +1,21 @@
+# Simulation artifacts
+sim/
+*.vcd
+*.out
+*.vvp
+
+# Vivado generated files
+*.jou
+*.log
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.str
+.srcs/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
