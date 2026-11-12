@@ -118,4 +118,13 @@ yosys -p "read_verilog rtl/priority_encoder.v; synth -top priority_encoder; stat
   reveals inferred latches.
 - Writing the truth table first made the RTL a direct translation of the
   compressed table.
-- Add your latch experiment result here after you run it.
+- Removing the default assignments made Yosys report "Latch inferred" for
+  both `idx` and `valid`, and the cell list contained $_DLATCH_N_ latch cells
+  instead of the 5 clean gates. The testbench caught it on the first vector
+  (req=0000), where `idx` and `valid` came back as x instead of 00 and 0,
+  because no branch assigned the outputs on that path. All other vectors
+  still passed, so the bug only shows up on the unhandled input. Restoring
+  the defaults returned the design to 5 gates and 0 latches. Lesson: assign
+  defaults at the top of every combinational always block, use !== in
+  testbenches so x values fail, and always check the synthesis report for
+  latches.
