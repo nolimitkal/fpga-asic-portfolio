@@ -37,7 +37,7 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 | Project | Description | Status |
 | ------- | ------------ | ------ |
-| [Priority Encoder / One-Hot Decoder](phase-1-fundamentals/01_priority_encoder) | Combinational priority encoding and one-hot decoding logic | ✅ Complete |
+| [Priority Encoder](phase-1-fundamentals/01_priority_encoder) | Combinational 4-bit priority encoder with valid flag and exhaustive self-checking testbench | ✅ Complete |
 | Traffic Light FSM | Finite state machine with timed transitions | ⏳ Pending |
 | FIFO Buffer | Synchronous FIFO with full/empty flags | ⏳ Pending |
 | Multi-Mode Counter | Parameterizable up/down/load counter | ⏳ Pending |
