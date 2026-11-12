@@ -31,20 +31,20 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 ---
 
-## Phase 1 — FPGA Fundamentals (Simulation)
+## Phase 1: FPGA Fundamentals (Simulation)
 
 > Pure HDL simulation projects focused on core digital design concepts
 
 | Project | Description | Status |
 | ------- | ------------ | ------ |
-| Priority Encoder / One-Hot Decoder | Combinational priority encoding and one-hot decoding logic | ⏳ Pending |
+| [Priority Encoder / One-Hot Decoder](phase-1-fundamentals/01_priority_encoder) | Combinational priority encoding and one-hot decoding logic | ✅ Complete |
 | Traffic Light FSM | Finite state machine with timed transitions | ⏳ Pending |
 | FIFO Buffer | Synchronous FIFO with full/empty flags | ⏳ Pending |
 | Multi-Mode Counter | Parameterizable up/down/load counter | ⏳ Pending |
 
 ---
 
-## Phase 2 — Intermediate Design (Simulation)
+## Phase 2: Intermediate Design (Simulation)
 
 > Combining multiple concepts into larger, realistic designs
 
@@ -57,7 +57,7 @@ Target roles: FPGA Design Engineer | Digital Design Engineer | Hardware Verifica
 
 ---
 
-## Phase 3 — Advanced Design (Simulation)
+## Phase 3: Advanced Design (Simulation)
 
 > High-performance and specialized digital design concepts
 
