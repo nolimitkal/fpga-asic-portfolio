@@ -1,12 +1,12 @@
 module priority_encoder (
-    input wire [3:0] req,   // 3 request lines, req[3:0] has highest priority
+    input wire [3:0] req,   // 4 request lines, req[3] has highest priority
     output reg [1:0] idx,   // index of the winning request
     output reg valid        // 1 when at least one request is active
 );
 
     always @(*) begin
-        // Default values: gurantee every output is assigned on every path.
-        // Without these two lines, the paths taht match no branch would leave
+        // Default values: guarantee every output is assigned on every path.
+        // Without these two lines, the paths that match no branch would leave
         // the outputs unassigned and synthesis would infer latches.
 
         idx = 2'b00;
